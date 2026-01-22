@@ -1,0 +1,603 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Le Dinh Nhat",
+      "email": "nhat6870k@gmail.com",
+      "password": "nhat123",
+      "token": "KDSJNBGFJREI32GFTD345GJ"
+    },
+    {
+      "id": "2",
+      "fullName": "Pham Thi Lan",
+      "email": "lan123@gmail.com",
+      "password": "lan321",
+      "token": "NBFJ3478GJSHS28JHFSSK2"
+    },
+    {
+      "id": "3",
+      "fullName": "Nguyen Hoang Nam",
+      "email": "namhoang@gmail.com",
+      "password": "nam2024",
+      "token": "GJH768GGJJHSHK28KFH78D"
+    },
+    {
+      "id": "4",
+      "fullName": "Tran Minh Kien",
+      "email": "kienminh@gmail.com",
+      "password": "kien1234",
+      "token": "HDDJ74DHDG4KJ35HKDJS56"
+    },
+    {
+      "id": "5",
+      "fullName": "Bui Thi Mai",
+      "email": "maithi@gmail.com",
+      "password": "mai0987",
+      "token": "BDJH28DJFJ47DJE72JD9"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS3"
+    },
+    {
+      "id": "3",
+      "name": "JavaScript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "HTML là viết tắt của?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "2",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo đường liên kết trong HTML?",
+      "answers": [
+        "<link>",
+        "<a>",
+        "<href>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": 1,
+      "question": "Thẻ HTML nào dùng để chèn hình ảnh?",
+      "answers": [
+        "<image>",
+        "<img>",
+        "<picture>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "4",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo tiêu đề lớn nhất?",
+      "answers": [
+        "<h1>",
+        "<h6>",
+        "<header>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "5",
+      "topicId": 1,
+      "question": "HTML được sử dụng để làm gì?",
+      "answers": [
+        "Định dạng tài liệu",
+        "Xây dựng cấu trúc tài liệu",
+        "Xử lý dữ liệu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "6",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo danh sách có thứ tự?",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<list>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicId": 1,
+      "question": "Thuộc tính nào xác định liên kết cho thẻ <a>?",
+      "answers": [
+        "href",
+        "src",
+        "link"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "8",
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo bảng?",
+      "answers": [
+        "<div>",
+        "<table>",
+        "<form>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicId": 1,
+      "question": "HTML là ngôn ngữ?",
+      "answers": [
+        "Lập trình",
+        "Đánh dấu",
+        "Cơ sở dữ liệu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "10",
+      "topicId": 1,
+      "question": "Thẻ nào không có trong HTML?",
+      "answers": [
+        "<section>",
+        "<article>",
+        "<footerer>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "11",
+      "topicId": 2,
+      "question": "CSS viết tắt của?",
+      "answers": [
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "12",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để đổi màu chữ?",
+      "answers": [
+        "font-color",
+        "text-color",
+        "color"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "13",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để căn giữa văn bản?",
+      "answers": [
+        "align-center",
+        "text-align",
+        "text-center"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "14",
+      "topicId": 2,
+      "question": "Lệnh nào dùng để nhập một tệp CSS ngoài?",
+      "answers": [
+        "<link>",
+        "@import",
+        "<style>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "15",
+      "topicId": 2,
+      "question": "CSS3 hỗ trợ tính năng nào sau đây?",
+      "answers": [
+        "Animations",
+        "Templates",
+        "Dynamic Binding"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "16",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi kích thước chữ?",
+      "answers": [
+        "font-style",
+        "font-size",
+        "font-weight"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": 2,
+      "question": "Giá trị nào của `position` sẽ đặt phần tử ở vị trí tương đối với trang?",
+      "answers": [
+        "relative",
+        "absolute",
+        "fixed"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "18",
+      "topicId": 2,
+      "question": "Pseudo-class nào dùng để chọn các liên kết chưa được truy cập?",
+      "answers": [
+        ":hover",
+        ":visited",
+        ":link"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "19",
+      "topicId": 2,
+      "question": "CSS có thể được chèn vào tài liệu HTML bằng cách nào?",
+      "answers": [
+        "Inline",
+        "Internal",
+        "External",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "20",
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi nền của phần tử?",
+      "answers": [
+        "background-color",
+        "color",
+        "background"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "21",
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ?",
+      "answers": [
+        "Hướng đối tượng",
+        "Lập trình",
+        "Cả hai"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "22",
+      "topicId": 3,
+      "question": "Lệnh nào dùng để hiển thị thông báo trong JS?",
+      "answers": [
+        "alert()",
+        "console.log()",
+        "print()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "23",
+      "topicId": 3,
+      "question": "Hàm nào dùng để chuyển chuỗi thành số?",
+      "answers": [
+        "Number()",
+        "String()",
+        "toString()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "24",
+      "topicId": 3,
+      "question": "Biến được khai báo bằng `const` có thể?",
+      "answers": [
+        "Thay đổi giá trị",
+        "Không thay đổi giá trị",
+        "Chỉ áp dụng với số"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "25",
+      "topicId": 3,
+      "question": "Hàm nào dùng để kiểm tra kiểu dữ liệu?",
+      "answers": [
+        "typeof()",
+        "isType()",
+        "getType()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "26",
+      "topicId": 3,
+      "question": "Đâu là vòng lặp trong JS?",
+      "answers": [
+        "for",
+        "while",
+        "do-while",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "27",
+      "topicId": 3,
+      "question": "Event nào được kích hoạt khi form được gửi đi?",
+      "answers": [
+        "onClick",
+        "onSubmit",
+        "onLoad"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "28",
+      "topicId": 3,
+      "question": "JSON là viết tắt của?",
+      "answers": [
+        "JavaScript Object Notation",
+        "Java Syntax Object",
+        "Java Style Oriented Notation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "29",
+      "topicId": 3,
+      "question": "Phương thức nào thêm phần tử vào cuối mảng?",
+      "answers": [
+        "push()",
+        "pop()",
+        "shift()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "30",
+      "topicId": 3,
+      "question": "Phương thức nào dùng để sao chép mảng?",
+      "answers": [
+        "concat()",
+        "slice()",
+        "Both of the above"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "31",
+      "topicId": 4,
+      "question": "ReactJS là gì?",
+      "answers": [
+        "Thư viện UI",
+        "Framework",
+        "Ngôn ngữ lập trình"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "32",
+      "topicId": 4,
+      "question": "React được phát triển bởi?",
+      "answers": [
+        "Google",
+        "Facebook",
+        "Microsoft"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "33",
+      "topicId": 4,
+      "question": "Thành phần nào là lõi trong React?",
+      "answers": [
+        "Component",
+        "Service",
+        "Module"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "34",
+      "topicId": 4,
+      "question": "React sử dụng gì để tối ưu hóa DOM?",
+      "answers": [
+        "Shadow DOM",
+        "Virtual DOM",
+        "Real DOM"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "35",
+      "topicId": 4,
+      "question": "State trong React là gì?",
+      "answers": [
+        "Dữ liệu không thay đổi",
+        "Dữ liệu động",
+        "Biến toàn cục"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "36",
+      "topicId": 4,
+      "question": "React Hook nào được sử dụng để quản lý state?",
+      "answers": [
+        "useEffect",
+        "useState",
+        "useReducer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "37",
+      "topicId": 4,
+      "question": "React hoạt động theo nguyên tắc nào?",
+      "answers": [
+        "1-way data binding",
+        "2-way data binding",
+        "No data binding"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "38",
+      "topicId": 4,
+      "question": "Thư viện nào được sử dụng để quản lý routing trong React?",
+      "answers": [
+        "React Router",
+        "React Redux",
+        "React DOM"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "39",
+      "topicId": 4,
+      "question": "JSX là gì?",
+      "answers": [
+        "Công cụ biên dịch",
+        "Cú pháp mở rộng của JavaScript",
+        "Ngôn ngữ mới"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "40",
+      "topicId": 4,
+      "question": "Lệnh nào để tạo dự án React?",
+      "answers": [
+        "npm start",
+        "npx create-react-app",
+        "npm build"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "mkp4qjp4k5koii5151l",
+      "userId": 1,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 31,
+          "answer": 0
+        },
+        {
+          "questionId": 32,
+          "answer": 1
+        },
+        {
+          "questionId": 33,
+          "answer": 0
+        },
+        {
+          "questionId": 34,
+          "answer": 1
+        },
+        {
+          "questionId": 35,
+          "answer": 1
+        },
+        {
+          "questionId": 36,
+          "answer": 0
+        },
+        {
+          "questionId": 37,
+          "answer": 0
+        },
+        {
+          "questionId": 38,
+          "answer": 0
+        },
+        {
+          "questionId": 39,
+          "answer": 1
+        },
+        {
+          "questionId": 40,
+          "answer": 1
+        }
+      ],
+      "score": 9,
+      "totalQuestions": 10,
+      "createdAt": "2026-01-22T07:27:48.280Z"
+    },
+    {
+      "id": "mkp52w2w4dhq0h9hzvf",
+      "userId": 2,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 31,
+          "answer": 0
+        },
+        {
+          "questionId": 32,
+          "answer": 1
+        },
+        {
+          "questionId": 33,
+          "answer": 0
+        },
+        {
+          "questionId": 34,
+          "answer": 1
+        },
+        {
+          "questionId": 35,
+          "answer": 1
+        },
+        {
+          "questionId": 36,
+          "answer": 1
+        },
+        {
+          "questionId": 37,
+          "answer": 0
+        },
+        {
+          "questionId": 38,
+          "answer": 0
+        },
+        {
+          "questionId": 39,
+          "answer": 1
+        },
+        {
+          "questionId": 40,
+          "answer": 1
+        }
+      ],
+      "score": 10,
+      "totalQuestions": 10,
+      "createdAt": "2026-01-22T07:37:24.200Z"
+    }
+  ]
+}
